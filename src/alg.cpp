@@ -13,15 +13,14 @@ count++;
 mid++;
 }
 }
-while ( arr[a] == value) {
+while (arr[a] == value) {
 if (arr[a] == value) {
 count++;
 --a;
 }
 }
 return count;
-}
-else if (arr[mid] < value) {
+} else if (arr[mid] < value) {
 left = mid + 1;
 } else {
 righ = mid - 1;
